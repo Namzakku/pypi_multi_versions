@@ -1,7 +1,7 @@
 # pypi_multi_versions/cli.py
 import argparse
 from pypi_multi_versions.installer import install_version
-from pypi_multi_versions.importer import import_version
+# from pypi_multi_versions.importer import import_version
 
 def main():
     parser = argparse.ArgumentParser(description="Handle multiple versions of PyPI packages.")
